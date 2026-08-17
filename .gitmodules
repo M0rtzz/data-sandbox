@@ -1,0 +1,6 @@
+[submodule "secretpad-frontend"]
+	path = secretpad-frontend
+	url = git@github.com:M0rtzz/secretpad-frontend.git
+[submodule "secretpad"]
+	path = secretpad
+	url = git@github.com:M0rtzz/secretpad.git

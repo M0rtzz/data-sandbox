@@ -1,0 +1,12 @@
+# The root repository tracks only the two source submodules, the procurement
+# document, and test fixtures. Keep all other existing directories/files on
+# disk without adding them to Git.
+/*
+
+# Root repository metadata and explicitly tracked content.
+!/.gitignore
+!/谈判采购文件.pdf
+!/test/
+!/test/**
+!/secretpad/
+!/secretpad-frontend/
