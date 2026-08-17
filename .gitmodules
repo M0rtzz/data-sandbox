@@ -4,3 +4,6 @@
 [submodule "secretpad"]
 	path = secretpad
 	url = git@github.com:M0rtzz/secretpad.git
+[submodule "data-sandbox-package"]
+	path = data-sandbox-package
+	url = git@github.com:M0rtzz/data-sandbox-package.git
