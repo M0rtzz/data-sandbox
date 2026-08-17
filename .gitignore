@@ -5,6 +5,7 @@
 
 # Root repository metadata and explicitly tracked content.
 !/.gitignore
+!/数据沙箱系统开发文档.md
 !/谈判采购文件.pdf
 !/test/
 !/test/**
