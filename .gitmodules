@@ -1,9 +1,12 @@
 [submodule "secretpad-frontend"]
 	path = secretpad-frontend
 	url = git@github.com:M0rtzz/secretpad-frontend.git
+	branch = master
 [submodule "secretpad"]
 	path = secretpad
 	url = git@github.com:M0rtzz/secretpad.git
+	branch = master
 [submodule "data-sandbox-package"]
 	path = data-sandbox-package
 	url = git@github.com:M0rtzz/data-sandbox-package.git
+	branch = master
