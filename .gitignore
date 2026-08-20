@@ -1,6 +1,6 @@
-# The root repository tracks only the two source submodules, the procurement
-# document, and test fixtures. Keep all other existing directories/files on
-# disk without adding them to Git.
+# The root repository tracks only the source submodules, the procurement
+# document, dev docs/scripts, and test fixtures. Keep all other existing
+# directories/files on disk without adding them to Git.
 /*
 
 # Root repository metadata and explicitly tracked content.
@@ -13,3 +13,17 @@
 !/secretpad/
 !/secretpad-frontend/
 !/技术响应.docx
+
+# zgz dev docs & scripts（数据沙箱系统开发文档.md 之上）
+!/claude/
+!/claude/**
+!/scripts/
+!/scripts/**
+# 运行期日志/pid 不入库
+/scripts/logs/
+
+# 本地运行期/缓存/凭据 —— 禁止入库（public 仓库）
+/.dev-runtime/
+/.cache/
+/.claude/
+/*.deb
